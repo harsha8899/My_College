@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SVU"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/svu"
+            android:contentDescription="@string/svu" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/content_sri_venkateswara_university_college_of_engineering_was_established_as_a_constituent_college_of_the_sri_venkateswara_university_tirupati_in_the_year_1959_tirupati_the_temple_town_lies_at_foot_hills_of_tirumala_the_abode_of_sri_venkateswara_the_lord_of_seven_hills"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="@string/official_web_site"
+            android:layout_marginBottom="10dp"
+            android:onClick="svu_official_web_site"/>
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="@string/directions"
+            android:layout_marginTop="10dp"
+            android:onClick="svu_Directions"/>
+    </LinearLayout>
+
+</LinearLayout>

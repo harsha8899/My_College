@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Govinda_Raja_Temple"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/govindha_raja_temple1"
+        android:contentDescription="@string/govinda_raja_temple">
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="@string/content_sri_govindarajaswamy_temple_is_an_ancient_hindhu_vaishnavite_temple_situated_at_the_heart_of_the_tirupati_city_in_chittoor_district_of_andhra_pradesh_state_in_india_the_temple_was_built_during_12_century_and_was_consecrated_in_the_year_1130_ad_by_saint_ramanujacharya_1_the_temple_is_one_of_the_earliest_structures_in_tirupati_and_also_one_of_the_biggest_temple_complex_in_chittoor_district_the_tirupati_down_hill_city_is_built_around_this_temple_the_temple_at_current_is_being_administered_by_tirumala_tirupati_devasthanams"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/directions"
+            android:onClick="govinda_raja_Temple_Directions"
+            />
+    </LinearLayout>
+
+    </LinearLayout>

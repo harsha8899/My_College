@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sri_Padmavathi_Temple"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/padmavathi_temple"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/sri_padmavathi_temple" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="@string/content_padmavathi_temple_1_is_the_temple_dedicated_to_goddess_padmavathi_or_alamelumanga_the_consort_of_lord_venkateswara_the_temple_is_situated_in_tiruchanur_at_a_distance_of_5_km_from_tirupati_in_chittoor_district_of_andhra_pradesh_india_the_temple_is_being_administered_by_tirumala_tirupati_devasthanams"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="DIRECTIONS"
+            tools:ignore="HardcodedText"
+            android:onClick="Sri_Padmavathi_Temple_Directions"/>
+
+    </LinearLayout>
+
+</LinearLayout>

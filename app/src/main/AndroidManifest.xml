@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mycollege">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="HOLIDAY MAKER"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SVU"></activity>
+        <activity android:name=".Education_module" />
+        <activity android:name=".Sri_kalahasti" />
+        <activity android:name=".Tiruchanur_temple" />
+        <activity android:name=".Iskon_Temple" />
+        <activity android:name=".Govinda_Raja_Temple" />
+        <activity android:name=".Sri_Padmavathi_Temple" />
+        <activity android:name=".Zoological_park" />
+        <activity android:name=".Kapila_Theertham" />
+        <activity android:name=".Sri_Balaji_temple" />
+        <activity android:name=".Tourism_module" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

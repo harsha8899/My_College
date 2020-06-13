@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Kapila_Theertham">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/kapila_theertham1"
+        android:scaleType="fitStart">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="120dp"
+            android:text="@string/content_kapila_theertham_is_a_famous_saivite_temple_and_theertham_located_at_tirupati_in_the_chittoor_district_of_andhra_pradesh_india_the_idol_is_believed_to_be_installed_by_kapila_muni_and_hence_lord_siva_here_is_referred_to_as_kapileswara"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/directions"
+            android:onClick="Kaplia_Theertham_Directions"/>
+
+    </LinearLayout>
+
+</LinearLayout>

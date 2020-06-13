@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Education_module">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Education_module"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="175dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent"
+                android:layout_marginEnd="10dp">
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/svu1"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="@string/sri_venkateswara_university" />
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="50dp"
+                        android:text="@string/sri_venkateswara_university"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="175dp"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/vidyanikethan1"
+                    android:contentDescription="@string/sree_vidyanikethan_college" />
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:text="@string/sree_vidyanikethan_college"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="175dp"
+                android:orientation="vertical"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/svce"
+                    android:contentDescription="@string/svec" />
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:text="@string/sri_venkateswara_engineering_college"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="175dp"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/crec1"
+                    android:contentDescription="@string/crec" />
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:text="@string/chadalavada_ramanama_engineering_college"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="175dp"
+                android:orientation="vertical"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UseCompoundDrawables">
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/anamacharya_college1"
+                    android:contentDescription="@string/aits" />
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:text="@string/annamacharya_institute_of_technology_and_sciences"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="175dp"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/padmavathi_college"
+                    android:contentDescription="@string/spmv" />
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:text="@string/sri_padmavati_mahila_visvavidyalayam"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="175dp"
+                android:orientation="vertical"
+                android:layout_marginEnd="10dp"
+                tools:ignore="UseCompoundDrawables">
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/yogananda_college"
+                    android:contentDescription="@string/yec" />
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:text="@string/yogananda_engineering_college"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="175dp"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/sree_rama_college1"
+                    android:contentDescription="@string/srec" />
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:text="@string/sree_rama_engineering_college"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>

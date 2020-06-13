@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Iskon_Temple"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="180dp"
+        android:src="@drawable/tirupati_iskon_temple"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/iskon_temple" />
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="100dp"
+        android:text="@string/content_tirupati_iskon_temple_is_a_beautiful_temple_of_lord_krishna_the_architecture_of_the_temple_is_very_beautiful_we_can_spend_hours_in_the_temple_seeing_the_deities_architecture_and_the_paintings_it_is_good_to_visit_the_temple_in_the_evening_hours_to_experience_the_beauty_of_the_temple"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:text="@string/timings_morning_4_30am_5_00am"
+        />
+
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:text="@string/evening_7_30pm_8_30pm" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/directions"
+            android:onClick="Iskon_Temple_Directions"/>
+    </LinearLayout>
+</LinearLayout>

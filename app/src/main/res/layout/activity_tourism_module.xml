@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tourism_module"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent"
+        android:layout_marginEnd="5dp">
+
+    <ImageView
+        android:id="@+id/ImageView1"
+        android:layout_width="180dp"
+        android:layout_height="125dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/tirumala_tourist"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/sri_balaji_temple2" />
+
+    <TextView
+        android:id="@+id/Textview1"
+        android:layout_width="180dp"
+        android:layout_height="25dp"
+        android:text="@string/sri_balaji_temple"
+        android:gravity="center"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="205dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="5dp">
+
+            <ImageView
+                android:id="@+id/ImageView2"
+                android:layout_width="180dp"
+                android:layout_height="125dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/kapila_theertham"
+                android:contentDescription="@string/kapila_theertham_image">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="180dp"
+                android:layout_height="25dp"
+                android:text="@string/kapila_theertham"
+                android:gravity="center"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:layout_marginEnd="5dp"
+            tools:ignore="UseCompoundDrawables">
+
+
+        <ImageView
+            android:id="@+id/ImageView3"
+            android:layout_width="180dp"
+            android:layout_height="125dp"
+            android:src="@drawable/zoo1"
+            android:contentDescription="@string/zoo1" />
+            <TextView
+                android:id="@+id/Textview3"
+                android:layout_width="180dp"
+                android:layout_height="25dp"
+                android:text="@string/zoological_park"
+                android:gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:layout_marginStart="5dp"
+            tools:ignore="UseCompoundDrawables">
+            <ImageView
+                android:id="@+id/ImageView4"
+                android:layout_width="180dp"
+                android:layout_height="125dp"
+                android:src="@drawable/padmavathi_temple1"
+                android:contentDescription="@string/padmavathi_temple1"/>
+
+            <TextView
+                android:id="@+id/Textview4"
+                android:layout_width="180dp"
+                android:layout_height="25dp"
+                android:text="@string/sri_padmavathi_temple"
+                android:gravity="center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:id="@+id/ImageView5"
+                android:layout_width="180dp"
+                android:layout_height="125dp"
+                android:contentDescription="govinda_raja_temple"
+                android:src="@drawable/govindha_raja_temple"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/Textview5"
+                android:layout_width="180dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:text="@string/govinda_raja_temple" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ImageView6"
+                android:layout_width="180dp"
+                android:layout_height="125dp"
+                android:contentDescription="@string/image6"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tirupati_iskon_temple" />
+
+            <TextView
+                android:id="@+id/Textview6"
+                android:layout_width="180dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:text="@string/iskon_temple" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:layout_marginEnd="5dp"
+            tools:ignore="UseCompoundDrawables">
+            <ImageView
+                android:id="@+id/ImageView7"
+                android:layout_width="180dp"
+                android:layout_height="125dp"
+                android:src="@drawable/tiruchanur_temple"
+                android:contentDescription="@string/tiruchanur" />
+            <TextView
+                android:id="@+id/Textview7"
+                android:layout_width="180dp"
+                android:layout_height="25dp"
+                android:text="@string/tiruchanur_temple"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables"
+            android:layout_marginStart="5dp">
+
+            <ImageView
+                android:id="@+id/ImageView8"
+                android:layout_width="180dp"
+                android:layout_height="125dp"
+                android:contentDescription="@string/image8"
+                android:src="@drawable/sri_kalahasti" />
+
+            <TextView
+                android:id="@+id/Textview8"
+                android:layout_width="180dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:text="@string/sri_kalahasti" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>

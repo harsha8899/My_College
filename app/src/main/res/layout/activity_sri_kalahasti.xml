@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sri_kalahasti"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/sri_kalahasti"
+        android:contentDescription="@string/sri_kalahasti" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:text="@string/content_srikalahasti_is_a_holy_town_in_chittoor_district_of_the_indian_state_of_andhra_pradesh_the_town_is_a_part_of_tirupati_urban_development_authority_which_is_located_on_the_banks_of_the_river_swarnamukhi_the_town_is_known_for_srikalahasteeswara_temple_dedicated_to_shiva_representing_one_of_the_pancha_bhoota_sthalams"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="@string/timings_6_00am_9_00pm"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="@string/directions"
+            android:onClick="Sri_kalahasti_temple_Directions"/>
+    </LinearLayout>
+
+</LinearLayout>
